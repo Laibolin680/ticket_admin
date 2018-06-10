@@ -1,0 +1,41 @@
+@charset = "utf-8";
+#close, #addmore {
+	width: 2.8rem;
+	height: 2.8rem;
+	background-size: 100% 100%;
+	top: 2.2rem;
+}
+#close {
+	position: absolute;
+	left: 1.3rem;
+	background: url('../images/close.png') no-repeat;
+}
+#addmore {
+	position: absolute;
+	right: 1.3rem;
+	background: url('../images/addmore_w.png') no-repeat; 
+}
+ul>li {
+	position: relative;
+	margin-bottom: 0.2rem;
+	line-height: 3rem;
+	font-family: 'MicrosoftYaHei Regular Bold';
+	font-size: 1.6rem;
+	color: rgb(77, 77, 77);
+	background-color: #e9eaed;
+}
+.infoact {
+	display: inline-block;
+	padding-left: 5%;
+	width: 80%;
+	height: 100%;
+}
+#Delect {
+	position: absolute;
+	top: 40%;
+	right: 8%;
+	height: 2.3rem;
+	width: 2.3rem;
+	background: url('../images/delete.png') no-repeat;
+	background-size: 100% 100%;
+}
